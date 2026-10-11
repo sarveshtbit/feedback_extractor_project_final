@@ -1,0 +1,12 @@
+{
+  "image_size": 28,
+  "num_classes": 10,
+  "train_samples": 33600,
+  "validation_samples": 8400,
+  "test_samples": 28000,
+  "validation_loss": 0.027038684114813805,
+  "validation_accuracy": 0.9922618865966797,
+  "macro_precision": 0.9922323103898455,
+  "macro_recall": 0.9922871664220265,
+  "macro_f1": 0.9922374843458475
+}

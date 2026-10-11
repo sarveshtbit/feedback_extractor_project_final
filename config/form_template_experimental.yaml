@@ -1,0 +1,401 @@
+canvas:
+  dpi: 300
+  height: 3508
+  width: 2479
+fields:
+  student_name:
+    type: text_region
+    normalized_bbox:
+    - 0.367
+    - 0.183
+    - 0.504
+    - 0.213
+    description: Student name write-in area excluding prompt label
+  school_name:
+    type: text_region
+    normalized_bbox:
+    - 0.52
+    - 0.183
+    - 0.92
+    - 0.213
+    description: School name write-in area
+  date:
+    type: character_boxes
+    count: 8
+    normalized_bbox:
+    - 0.234
+    - 0.1431
+    - 0.4776
+    - 0.1822
+    boxes:
+    - index: 0
+      type: digit
+      label: day_1
+      normalized_bbox:
+      - 0.0815
+      - 0.1431
+      - 0.1247
+      - 0.1822
+    - index: 1
+      type: digit
+      label: day_2
+      normalized_bbox:
+      - 0.1319
+      - 0.1431
+      - 0.1751
+      - 0.1822
+    - index: 2
+      type: digit
+      label: month_1
+      normalized_bbox:
+      - 0.1823
+      - 0.1431
+      - 0.2255
+      - 0.1822
+    - index: 3
+      type: digit
+      label: month_2
+      normalized_bbox:
+      - 0.2328
+      - 0.1431
+      - 0.276
+      - 0.1822
+    - index: 4
+      type: digit
+      label: year_1
+      normalized_bbox:
+      - 0.2832
+      - 0.1431
+      - 0.3264
+      - 0.1822
+    - index: 5
+      type: digit
+      label: year_2
+      normalized_bbox:
+      - 0.3336
+      - 0.1431
+      - 0.3768
+      - 0.1822
+    - index: 6
+      type: digit
+      label: year_3
+      normalized_bbox:
+      - 0.384
+      - 0.1431
+      - 0.4272
+      - 0.1822
+    - index: 7
+      type: digit
+      label: year_4
+      normalized_bbox:
+      - 0.4344
+      - 0.1431
+      - 0.4776
+      - 0.1822
+    description: Date 8 character boxes excluding prompt label
+  student_mobile:
+    type: character_boxes
+    count: 10
+    normalized_bbox:
+    - 0.1895
+    - 0.2144
+    - 0.5785
+    - 0.2535
+    boxes:
+    - index: 0
+      normalized_bbox:
+      - 0.0815
+      - 0.2144
+      - 0.1247
+      - 0.2535
+    - index: 1
+      normalized_bbox:
+      - 0.1319
+      - 0.2144
+      - 0.1751
+      - 0.2535
+    - index: 2
+      normalized_bbox:
+      - 0.1823
+      - 0.2144
+      - 0.2255
+      - 0.2535
+    - index: 3
+      normalized_bbox:
+      - 0.2328
+      - 0.2144
+      - 0.276
+      - 0.2535
+    - index: 4
+      normalized_bbox:
+      - 0.2832
+      - 0.2144
+      - 0.3264
+      - 0.2535
+    - index: 5
+      normalized_bbox:
+      - 0.3336
+      - 0.2144
+      - 0.3768
+      - 0.2535
+    - index: 6
+      normalized_bbox:
+      - 0.384
+      - 0.2144
+      - 0.4272
+      - 0.2535
+    - index: 7
+      normalized_bbox:
+      - 0.4344
+      - 0.2144
+      - 0.4776
+      - 0.2535
+    - index: 8
+      normalized_bbox:
+      - 0.4849
+      - 0.2144
+      - 0.5281
+      - 0.2535
+    - index: 9
+      normalized_bbox:
+      - 0.5353
+      - 0.2144
+      - 0.5785
+      - 0.2535
+    description: Student mobile 10 character boxes excluding prompt label
+  parent_mobile:
+    type: character_boxes
+    count: 10
+    normalized_bbox:
+    - 0.746
+    - 0.2144
+    - 0.995
+    - 0.2535
+    boxes:
+    - index: 0
+      normalized_bbox:
+      - 0.5857
+      - 0.2144
+      - 0.6266
+      - 0.2535
+    - index: 1
+      normalized_bbox:
+      - 0.6266
+      - 0.2144
+      - 0.6675
+      - 0.2535
+    - index: 2
+      normalized_bbox:
+      - 0.6675
+      - 0.2144
+      - 0.7085
+      - 0.2535
+    - index: 3
+      normalized_bbox:
+      - 0.7085
+      - 0.2144
+      - 0.7494
+      - 0.2535
+    - index: 4
+      normalized_bbox:
+      - 0.7494
+      - 0.2144
+      - 0.7903
+      - 0.2535
+    - index: 5
+      normalized_bbox:
+      - 0.7903
+      - 0.2144
+      - 0.8313
+      - 0.2535
+    - index: 6
+      normalized_bbox:
+      - 0.8313
+      - 0.2144
+      - 0.8722
+      - 0.2535
+    - index: 7
+      normalized_bbox:
+      - 0.8722
+      - 0.2144
+      - 0.9131
+      - 0.2535
+    - index: 8
+      normalized_bbox:
+      - 0.9131
+      - 0.2144
+      - 0.9541
+      - 0.2535
+    - index: 9
+      normalized_bbox:
+      - 0.9541
+      - 0.2144
+      - 0.995
+      - 0.2535
+    description: Parent mobile 10 character boxes excluding prompt label
+  email:
+    type: text_region
+    normalized_bbox:
+    - 0.226
+    - 0.254
+    - 0.4776
+    - 0.284
+    description: Email write-in line excluding prompt label
+  cutoff_marks:
+    type: character_boxes
+    count: 6
+    normalized_bbox:
+    - 0.575
+    - 0.2851
+    - 0.855
+    - 0.3224
+    boxes:
+    - index: 0
+      type: digit
+      normalized_bbox:
+      - 0.575
+      - 0.2851
+      - 0.62
+      - 0.3224
+    - index: 1
+      type: digit
+      normalized_bbox:
+      - 0.625
+      - 0.2851
+      - 0.67
+      - 0.3224
+    - index: 2
+      type: digit
+      normalized_bbox:
+      - 0.675
+      - 0.2851
+      - 0.72
+      - 0.3224
+    - index: 3
+      type: decimal
+      normalized_bbox:
+      - 0.725
+      - 0.2851
+      - 0.75
+      - 0.3224
+    - index: 4
+      type: digit
+      normalized_bbox:
+      - 0.76
+      - 0.2851
+      - 0.805
+      - 0.3224
+    - index: 5
+      type: digit
+      normalized_bbox:
+      - 0.81
+      - 0.2851
+      - 0.855
+      - 0.3224
+    description: Cutoff marks 6 boxes
+questionnaire:
+  questions:
+  - label: Are you interested in joining BIT for B.E/B.Tech courses?
+    options:
+    - center_normalized:
+      - 0.443
+      - 0.426
+      label: 'Yes'
+      radius_normalized: 0.011
+    - center_normalized:
+      - 0.564
+      - 0.426
+      label: 'No'
+      radius_normalized: 0.011
+    question_id: q1
+  - label: Rate the usefulness of Career Guidance Programme
+    options:
+    - center_normalized:
+      - 0.443
+      - 0.451
+      label: Excellent
+      radius_normalized: 0.011
+    - center_normalized:
+      - 0.564
+      - 0.451
+      label: Good
+      radius_normalized: 0.011
+    - center_normalized:
+      - 0.685
+      - 0.451
+      label: Satisfactory
+      radius_normalized: 0.011
+    - center_normalized:
+      - 0.806
+      - 0.451
+      label: Fair
+      radius_normalized: 0.011
+    - center_normalized:
+      - 0.927
+      - 0.451
+      label: Poor
+      radius_normalized: 0.011
+    question_id: q2
+  - label: Rate the effectiveness and guidance of the speakers
+    options:
+    - center_normalized:
+      - 0.443
+      - 0.477
+      label: Excellent
+      radius_normalized: 0.011
+    - center_normalized:
+      - 0.564
+      - 0.477
+      label: Good
+      radius_normalized: 0.011
+    - center_normalized:
+      - 0.685
+      - 0.477
+      label: Satisfactory
+      radius_normalized: 0.011
+    - center_normalized:
+      - 0.806
+      - 0.477
+      label: Fair
+      radius_normalized: 0.011
+    - center_normalized:
+      - 0.927
+      - 0.477
+      label: Poor
+      radius_normalized: 0.011
+    question_id: q3
+  - label: Are you interested in taking choice filling assistance provided in BIT?
+    options:
+    - center_normalized:
+      - 0.443
+      - 0.503
+      label: 'Yes'
+      radius_normalized: 0.011
+    - center_normalized:
+      - 0.564
+      - 0.503
+      label: 'No'
+      radius_normalized: 0.011
+    question_id: q4
+  type: checkbox_group
+registration_markers:
+  bottom_left:
+  - 0.04
+  - 0.948
+  - 0.072
+  - 0.971
+  bottom_right:
+  - 0.927
+  - 0.948
+  - 0.96
+  - 0.971
+  top_left:
+  - 0.04
+  - 0.028
+  - 0.072
+  - 0.051
+  top_right:
+  - 0.927
+  - 0.028
+  - 0.96
+  - 0.051

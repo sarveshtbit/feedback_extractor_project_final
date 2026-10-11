@@ -1,0 +1,65 @@
+﻿# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Python virtual environments
+.venv/
+.venv-paddleocr/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Node.js
+node_modules/
+dist/
+build/
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Private uploads and generated storage
+uploads/
+storage/
+
+# Logs and temporary debug files
+*.log
+debug_*.png
+test_*.png
+test_eval_output/
+scratch/
+
+# Large training datasets — review separately before sharing
+real_digit_dataset/
+
+# CSV files inside CNN — review separately before sharing
+CNN/*.csv
+
+# Model checkpoints — review separately before sharing
+*.pth
+*.pt
+*.ckpt
+
+# Keep the required form template image
+!bannari_amman_form_template.png
+
+# Required models used by the project
+!pretrained_model.pt
+!outputs/pretrained_model.pt
+
+# Debug images generated during form processing
+debug_original_forms/
+
+# Exclude generated output files that are not needed to run the project
+outputs/digit_cnn.keras

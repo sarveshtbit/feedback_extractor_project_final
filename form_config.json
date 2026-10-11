@@ -1,0 +1,784 @@
+{
+  "canvas": {
+    "width": 2479,
+    "height": 3508,
+    "dpi": 300
+  },
+  "registration_markers": {
+    "top_left": {
+      "x": 140,
+      "y": 140,
+      "box": [
+        100,
+        100,
+        80,
+        80
+      ]
+    },
+    "top_right": {
+      "x": 2339,
+      "y": 140,
+      "box": [
+        2299,
+        100,
+        80,
+        80
+      ]
+    },
+    "bottom_left": {
+      "x": 140,
+      "y": 3368,
+      "box": [
+        100,
+        3328,
+        80,
+        80
+      ]
+    },
+    "bottom_right": {
+      "x": 2339,
+      "y": 3368,
+      "box": [
+        2299,
+        3328,
+        80,
+        80
+      ]
+    }
+  },
+  "fields": {
+    "mobile_number": {
+      "type": "character_boxes",
+      "count": 10,
+      "bounding_box": [
+        200,
+        500,
+        1235,
+        140
+      ],
+      "boxes": [
+        {
+          "index": 0,
+          "type": "box",
+          "box": [
+            200,
+            500,
+            110,
+            140
+          ]
+        },
+        {
+          "index": 1,
+          "type": "box",
+          "box": [
+            325,
+            500,
+            110,
+            140
+          ]
+        },
+        {
+          "index": 2,
+          "type": "box",
+          "box": [
+            450,
+            500,
+            110,
+            140
+          ]
+        },
+        {
+          "index": 3,
+          "type": "box",
+          "box": [
+            575,
+            500,
+            110,
+            140
+          ]
+        },
+        {
+          "index": 4,
+          "type": "box",
+          "box": [
+            700,
+            500,
+            110,
+            140
+          ]
+        },
+        {
+          "index": 5,
+          "type": "box",
+          "box": [
+            825,
+            500,
+            110,
+            140
+          ]
+        },
+        {
+          "index": 6,
+          "type": "box",
+          "box": [
+            950,
+            500,
+            110,
+            140
+          ]
+        },
+        {
+          "index": 7,
+          "type": "box",
+          "box": [
+            1075,
+            500,
+            110,
+            140
+          ]
+        },
+        {
+          "index": 8,
+          "type": "box",
+          "box": [
+            1200,
+            500,
+            110,
+            140
+          ]
+        },
+        {
+          "index": 9,
+          "type": "box",
+          "box": [
+            1325,
+            500,
+            110,
+            140
+          ]
+        }
+      ]
+    },
+    "student_name": {
+      "type": "character_boxes",
+      "count": 15,
+      "bounding_box": [
+        200,
+        750,
+        1860,
+        140
+      ],
+      "boxes": [
+        {
+          "index": 0,
+          "type": "box",
+          "box": [
+            200,
+            750,
+            110,
+            140
+          ]
+        },
+        {
+          "index": 1,
+          "type": "box",
+          "box": [
+            325,
+            750,
+            110,
+            140
+          ]
+        },
+        {
+          "index": 2,
+          "type": "box",
+          "box": [
+            450,
+            750,
+            110,
+            140
+          ]
+        },
+        {
+          "index": 3,
+          "type": "box",
+          "box": [
+            575,
+            750,
+            110,
+            140
+          ]
+        },
+        {
+          "index": 4,
+          "type": "box",
+          "box": [
+            700,
+            750,
+            110,
+            140
+          ]
+        },
+        {
+          "index": 5,
+          "type": "box",
+          "box": [
+            825,
+            750,
+            110,
+            140
+          ]
+        },
+        {
+          "index": 6,
+          "type": "box",
+          "box": [
+            950,
+            750,
+            110,
+            140
+          ]
+        },
+        {
+          "index": 7,
+          "type": "box",
+          "box": [
+            1075,
+            750,
+            110,
+            140
+          ]
+        },
+        {
+          "index": 8,
+          "type": "box",
+          "box": [
+            1200,
+            750,
+            110,
+            140
+          ]
+        },
+        {
+          "index": 9,
+          "type": "box",
+          "box": [
+            1325,
+            750,
+            110,
+            140
+          ]
+        },
+        {
+          "index": 10,
+          "type": "box",
+          "box": [
+            1450,
+            750,
+            110,
+            140
+          ]
+        },
+        {
+          "index": 11,
+          "type": "box",
+          "box": [
+            1575,
+            750,
+            110,
+            140
+          ]
+        },
+        {
+          "index": 12,
+          "type": "box",
+          "box": [
+            1700,
+            750,
+            110,
+            140
+          ]
+        },
+        {
+          "index": 13,
+          "type": "box",
+          "box": [
+            1825,
+            750,
+            110,
+            140
+          ]
+        },
+        {
+          "index": 14,
+          "type": "box",
+          "box": [
+            1950,
+            750,
+            110,
+            140
+          ]
+        }
+      ]
+    },
+    "cutoff_mark": {
+      "type": "character_boxes",
+      "count": 6,
+      "bounding_box": [
+        200,
+        1000,
+        610,
+        130
+      ],
+      "boxes": [
+        {
+          "index": 0,
+          "type": "box",
+          "box": [
+            200,
+            1000,
+            100,
+            130
+          ]
+        },
+        {
+          "index": 1,
+          "type": "box",
+          "box": [
+            312,
+            1000,
+            100,
+            130
+          ]
+        },
+        {
+          "index": 2,
+          "type": "box",
+          "box": [
+            424,
+            1000,
+            100,
+            130
+          ]
+        },
+        {
+          "index": 3,
+          "type": "decimal",
+          "box": [
+            536,
+            1000,
+            50,
+            130
+          ]
+        },
+        {
+          "index": 4,
+          "type": "box",
+          "box": [
+            598,
+            1000,
+            100,
+            130
+          ]
+        },
+        {
+          "index": 5,
+          "type": "box",
+          "box": [
+            710,
+            1000,
+            100,
+            130
+          ]
+        }
+      ]
+    },
+    "school_name": {
+      "type": "character_boxes",
+      "count": 18,
+      "bounding_box": [
+        200,
+        1240,
+        1914,
+        120
+      ],
+      "boxes": [
+        {
+          "index": 0,
+          "type": "box",
+          "box": [
+            200,
+            1240,
+            95,
+            120
+          ]
+        },
+        {
+          "index": 1,
+          "type": "box",
+          "box": [
+            307,
+            1240,
+            95,
+            120
+          ]
+        },
+        {
+          "index": 2,
+          "type": "box",
+          "box": [
+            414,
+            1240,
+            95,
+            120
+          ]
+        },
+        {
+          "index": 3,
+          "type": "box",
+          "box": [
+            521,
+            1240,
+            95,
+            120
+          ]
+        },
+        {
+          "index": 4,
+          "type": "box",
+          "box": [
+            628,
+            1240,
+            95,
+            120
+          ]
+        },
+        {
+          "index": 5,
+          "type": "box",
+          "box": [
+            735,
+            1240,
+            95,
+            120
+          ]
+        },
+        {
+          "index": 6,
+          "type": "box",
+          "box": [
+            842,
+            1240,
+            95,
+            120
+          ]
+        },
+        {
+          "index": 7,
+          "type": "box",
+          "box": [
+            949,
+            1240,
+            95,
+            120
+          ]
+        },
+        {
+          "index": 8,
+          "type": "box",
+          "box": [
+            1056,
+            1240,
+            95,
+            120
+          ]
+        },
+        {
+          "index": 9,
+          "type": "box",
+          "box": [
+            1163,
+            1240,
+            95,
+            120
+          ]
+        },
+        {
+          "index": 10,
+          "type": "box",
+          "box": [
+            1270,
+            1240,
+            95,
+            120
+          ]
+        },
+        {
+          "index": 11,
+          "type": "box",
+          "box": [
+            1377,
+            1240,
+            95,
+            120
+          ]
+        },
+        {
+          "index": 12,
+          "type": "box",
+          "box": [
+            1484,
+            1240,
+            95,
+            120
+          ]
+        },
+        {
+          "index": 13,
+          "type": "box",
+          "box": [
+            1591,
+            1240,
+            95,
+            120
+          ]
+        },
+        {
+          "index": 14,
+          "type": "box",
+          "box": [
+            1698,
+            1240,
+            95,
+            120
+          ]
+        },
+        {
+          "index": 15,
+          "type": "box",
+          "box": [
+            1805,
+            1240,
+            95,
+            120
+          ]
+        },
+        {
+          "index": 16,
+          "type": "box",
+          "box": [
+            1912,
+            1240,
+            95,
+            120
+          ]
+        },
+        {
+          "index": 17,
+          "type": "box",
+          "box": [
+            2019,
+            1240,
+            95,
+            120
+          ]
+        }
+      ]
+    },
+    "omr_feedback": {
+      "type": "omr_group",
+      "questions": [
+        {
+          "question_id": "q1",
+          "label": "Teaching Quality & Faculty Support",
+          "options": [
+            {
+              "label": "A",
+              "center": [
+                1100,
+                1495
+              ],
+              "radius": 28
+            },
+            {
+              "label": "B",
+              "center": [
+                1400,
+                1495
+              ],
+              "radius": 28
+            },
+            {
+              "label": "C",
+              "center": [
+                1700,
+                1495
+              ],
+              "radius": 28
+            },
+            {
+              "label": "D",
+              "center": [
+                2000,
+                1495
+              ],
+              "radius": 28
+            }
+          ]
+        },
+        {
+          "question_id": "q2",
+          "label": "Laboratories & Infrastructure",
+          "options": [
+            {
+              "label": "A",
+              "center": [
+                1100,
+                1585
+              ],
+              "radius": 28
+            },
+            {
+              "label": "B",
+              "center": [
+                1400,
+                1585
+              ],
+              "radius": 28
+            },
+            {
+              "label": "C",
+              "center": [
+                1700,
+                1585
+              ],
+              "radius": 28
+            },
+            {
+              "label": "D",
+              "center": [
+                2000,
+                1585
+              ],
+              "radius": 28
+            }
+          ]
+        },
+        {
+          "question_id": "q3",
+          "label": "Library & Digital Resources",
+          "options": [
+            {
+              "label": "A",
+              "center": [
+                1100,
+                1675
+              ],
+              "radius": 28
+            },
+            {
+              "label": "B",
+              "center": [
+                1400,
+                1675
+              ],
+              "radius": 28
+            },
+            {
+              "label": "C",
+              "center": [
+                1700,
+                1675
+              ],
+              "radius": 28
+            },
+            {
+              "label": "D",
+              "center": [
+                2000,
+                1675
+              ],
+              "radius": 28
+            }
+          ]
+        },
+        {
+          "question_id": "q4",
+          "label": "Hostel & Dining Facilities",
+          "options": [
+            {
+              "label": "A",
+              "center": [
+                1100,
+                1765
+              ],
+              "radius": 28
+            },
+            {
+              "label": "B",
+              "center": [
+                1400,
+                1765
+              ],
+              "radius": 28
+            },
+            {
+              "label": "C",
+              "center": [
+                1700,
+                1765
+              ],
+              "radius": 28
+            },
+            {
+              "label": "D",
+              "center": [
+                2000,
+                1765
+              ],
+              "radius": 28
+            }
+          ]
+        },
+        {
+          "question_id": "q5",
+          "label": "Overall Campus Experience",
+          "options": [
+            {
+              "label": "A",
+              "center": [
+                1100,
+                1855
+              ],
+              "radius": 28
+            },
+            {
+              "label": "B",
+              "center": [
+                1400,
+                1855
+              ],
+              "radius": 28
+            },
+            {
+              "label": "C",
+              "center": [
+                1700,
+                1855
+              ],
+              "radius": 28
+            },
+            {
+              "label": "D",
+              "center": [
+                2000,
+                1855
+              ],
+              "radius": 28
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

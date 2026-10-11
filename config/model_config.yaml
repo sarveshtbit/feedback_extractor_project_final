@@ -1,0 +1,25 @@
+# ML & Pipeline Configuration
+training:
+  image_size: 224
+  batch_size: 32
+  epochs: 30
+  learning_rate: 0.0001
+  weight_decay: 0.0001
+  patience: 7
+  train_split: 0.70
+  val_split: 0.15
+  test_split: 0.15
+  num_workers: 0
+
+inference:
+  cnn_confidence_threshold: 0.85
+  gemini_confidence_threshold: 0.80
+  cutoff_min: 0.0
+  cutoff_max: 200.0
+
+pdf:
+  dpi: 300
+
+storage:
+  max_upload_size_mb: 25
+  allowed_extensions: [".jpg", ".jpeg", ".png", ".pdf"]
